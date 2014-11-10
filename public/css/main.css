@@ -1,8 +1,28 @@
+@font-face{
+  font-family: minecraftia;
+  src: url(fonts/Minecraftia.ttf);
+}
+
 html {
 	background-image: url(img/old_computer3.png);
 	background-repeat: no-repeat;
   	background-attachment: fixed;
   	background-position: center;
   	background-size: 100% 100%;
-  	position: absolute; 
+  	position: relative; 
 }
+
+h1 {
+  color: #00E800;
+  font-family: minecraftia;
+  font-size: 25px;
+  position: relative; /*why isn't this doing anything?*/
+  margin-top: 25%;
+  margin-left: 38%;
+  text-align: center; /*why isn't this doing anything?*/
+  white-space: nowrap;
+  position: absolute;
+}
+
+
+

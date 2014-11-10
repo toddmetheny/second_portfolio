@@ -1,0 +1,8 @@
+html {
+	background-image: url(img/old_computer3.png);
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-position: center;
+  	background-size: 100% 100%;
+  	position: absolute; 
+}

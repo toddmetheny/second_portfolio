@@ -6,22 +6,53 @@
 html {
 	background-image: url(img/old_computer3.png);
 	background-repeat: no-repeat;
-  	background-attachment: fixed;
-  	background-position: center;
-  	background-size: 100% 100%;
-  	position: relative; 
+  background-attachment: fixed;
+	background-position: center;
+  background-size: 100% 100%;
+  position: relative; 
 }
 
 h1 {
   color: #00E800;
   font-family: minecraftia;
   font-size: 25px;
-  position: relative; /*why isn't this doing anything?*/
-  margin-top: 25%;
+   /*why isn't this doing anything?*/
+  margin-top: 25%; /*this loses itself*/
   margin-left: 38%;
   text-align: center; /*why isn't this doing anything?*/
   white-space: nowrap;
   position: absolute;
+}
+
+.profile-photo{
+  position: absolute;
+  display: block;
+  max-width: 100px;
+  margin-left: 42.5%;
+  margin-top: 10%;
+  border-radius: 100%;
+  border-style: solid;
+  border-color: #00E800;
+}
+
+a{
+  color: #00E800;
+}
+
+a:hover{
+  color: #0066FF;
+}
+
+.social{
+	list-style: none;
+  float: left;
+  margin-left: 32%;
+  margin-top: 35%;
+}
+
+li{
+  display: inline;
+  margin: 10px;
 }
 
 
